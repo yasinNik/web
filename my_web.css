@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Header */
+.web_head {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#profile-pic {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+.intorduse p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.skills{
+    margin-top: 2%;
+}
+.skills ol {
+    padding-left: 20px;
+  
+}
+
+.skills li {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Form */
+.form-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .web_head {
+        padding: 15px;
+    }
+
+    .profile h1 {
+        font-size: 18px;
+    }
+
+    #profile-pic {
+        width: 100px;
+    }
+
+    .intorduse p {
+        font-size: 14px;
+    }
+
+    .form-container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile h1 {
+        font-size: 16px;
+    }
+
+    #profile-pic {
+        width: 80px;
+    }
+
+    .intorduse p {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
