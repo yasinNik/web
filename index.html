@@ -1,56 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Web Page</title>
-    <link rel="stylesheet" type="text/css" href="my_web.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasin Nikfarjam - Personal Website</title>
+  <link rel="stylesheet" href="my_web.css">
 </head>
 <body>
-    <header class="web_head"> 
-        <div class="profile">
-            <h1>My name is: Yasin Nikfarjam</h1>
-            <img src="pic1.jpg" alt="My photo" id="profile-pic">
-        </div>
-    </header>
-    
-    <main>
-        <div class="introduce">
-            <p>
-                Hi, my name is Yasin Nikfarjam and I am a student at Khatam University of Tehran which is located in Tehran's Vanak Square. I am 20 years old. I am interested in Artificial Intelligence which nowadays you hear its name a lot. I also like making websites and in pursuit of my interests I learned Python which is one of the main tools needed for AI. I have some experience in HTML, CSS, and JS which are used in creating web pages.
-            </p>
-        </div>
-        <div class="skills">
-            <h4>My skills are :</h4>
-            <ol type="A">
-               
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>R language</li>
-            </ol>
-        </div>
-
-        <div class="form-container">
-        <h1>Contact Us</h1>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
+  <header class="web_head">
+    <div class="profile">
+      <div class="name">
+        <h1>Name: Yasin</h1>
+        <h2>Family Name: Nikfarjam</h2>
+      </div>
+      <img src="pic1.jpg" alt="Yasin's Profile Photo" id="profile-pic">
     </div>
-    </main>
+  </header>
 
-    <footer>
-        <p>This was my personal website you visited. Thank you for your time and patience.</p>
-    </footer>
+  <main>
+    <section class="introduce">
+      <p>
+        Hi, I'm Yasin Nikfarjam, a 20-year-old Computer Science student at Khatam University in Tehran. 
+        Passionate about Artificial Intelligence and web development, I've acquired skills in Python, 
+        JavaScript, and related technologies. I enjoy creating intelligent systems and building 
+        responsive websites that solve real-world problems.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h4>Technical Skills</h4>
+      <ol>
+        <li class="skill-item">
+          <div class="skill-header">
+            <span class="arrow">▹</span> Python
+          </div>
+          <div class="skill-desc">Experienced with data analysis, OOP, and AI scripting in Python.</div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-header">
+            <span class="arrow">▹</span> HTML5
+          </div>
+          <div class="skill-desc">Builds semantic and accessible web pages with HTML5 best practices.</div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-header">
+            <span class="arrow">▹</span> CSS3
+          </div>
+          <div class="skill-desc">Familiar with Flexbox, Grid, and creating responsive UIs.</div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-header">
+            <span class="arrow">▹</span> JavaScript
+          </div>
+          <div class="skill-desc">Understands DOM manipulation, ES6 features, and interactivity.</div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-header">
+            <span class="arrow">▹</span> R Programming
+          </div>
+          <div class="skill-desc">Used for statistical analysis and visualizing data in academic projects.</div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="form-container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Yasin Nikfarjam. All rights reserved.</p>
+  </footer>
 </body>
 </html>
